@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "outDir": "./built",
+      "target": "ES2018",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "strict": true,
+      "baseUrl": "./",
+      "paths": {
+        "@models/*": ["src/models/*"],
+        "@config/*": ["config/*"],
+        "@services/*": ["src/services/*"],
+        "@common/*": ["src/module/common/*"],
+        "@utils/*": ["src/utils/*"]
+      },
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": ["**/*.ts"]
+  }
+  
